@@ -1,12 +1,12 @@
 
 var giftastic = {
-	topics: ['board games', 'brooklyn 99', 'princess bride', 'fails'],
+	topics: ['board games', 'brooklyn 99', 'princess bride', 'fails', 'mountains', 'kayak','hiking'],
 	btnTopics: function () {
 
 		for (var i = 0; i < this.topics.length; i++) {
 			var li = $('<li>'), a = $('<a href="#">');
 			li.append(a);
-			a.attr('class', 'topic-buttons');
+			a.attr('class', 'topic-buttons label-primary');
 			a.attr('data-topic', i);
 			// btn.attr('id', 'topic' + i);
 			a.text(this.topics[i]);

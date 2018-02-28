@@ -11,3 +11,12 @@
 img:hover{
 	cursor: pointer;
 }
+
+.topic-buttons {
+	color: #ffffff;
+}
+
+.topic-buttons:hover {
+	color: #ffffff;
+}
+
